@@ -1,0 +1,45 @@
+<?php
+    session_start();
+?>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Evenimente OAS</title>
+        <meta charset="UTF-8">
+        
+        <link rel="stylesheet" href = "style.css">
+    </head>
+
+    <body>
+        
+        <div class="nav">
+            <div class="meniu">
+                <ul>
+                    <li><a href="index.php"><div style="text-decoration-color: #D67940">Acasa</div></a></li>
+                    <li><a href="evenimente.php">Evenimente</a></li>
+                    <li><a href="despre.php">Despre noi</a></li>
+                    <li><a href="contact.php">Contact</a></li>
+                </ul>
+            </div>
+            <div class="loginetc">
+                <form action="includes/login.inc.php" method="post" style="padding-top: 40px;  padding-right: 40px;">
+                                  <input type="text" name="mailuid" placeholder="Username/E-mail...">
+                                  <input type="password" name="pwd" placeholder="Password...">
+                                  <button type="submit" name="login-submit">Login</button>
+                </form>
+                <a href="signup.php" class="signuplink" style="padding-left: 120px">Sign Up</a>
+            </div>
+        </div>
+        
+        <div class="wrapper">
+            <br><br>
+            <h1>Front page</h1>
+            <br>
+            <div class="imgmain" id="imgmain">
+            <img src="imagini/ptindex.jpg">
+            </div>
+            <button type="submit" name="login-submit" class="buton">LOGIN</button>
+            
+        </div>
+    </body>
+</html>
