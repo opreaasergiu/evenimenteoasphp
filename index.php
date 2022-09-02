@@ -10,7 +10,7 @@
         <link rel="stylesheet" href = "style.css">
     </head>
 
-    <body>
+    <body style="background-color: #D7CEC7;">
         <div class="nav">
             <div class="meniu">
                 <?php
@@ -76,7 +76,7 @@
             <br>
             <p>Prețul serviciului de organizare evenimente diferă în funcție de dimensiunea și complexitatea evenimentului, astfel că, dacă ești interesat să colaborăm cere–ne o ofertă.</p>
             <br><br><br>
-            <div style="position: fixed; left: 0; bottom: 0; width: 100%; background-color: bisque; color: red; text-align: center;"> 
+            <div class="footer"> 
                 
                 <?php
                 $ip = $_SERVER['REMOTE_ADDR'];
